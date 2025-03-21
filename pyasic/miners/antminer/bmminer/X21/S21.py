@@ -15,7 +15,7 @@
 # ------------------------------------------------------------------------------
 
 from pyasic.miners.backends import AntminerModern
-from pyasic.miners.device.models import S21, S21Hydro, S21Plus, S21Pro
+from pyasic.miners.device.models import S21, S21Hydro, S21Plus, S21PlusHydro, S21Pro
 
 
 class BMMinerS21(AntminerModern, S21):
@@ -31,4 +31,8 @@ class BMMinerS21Pro(AntminerModern, S21Pro):
 
 
 class BMMinerS21Hydro(AntminerModern, S21Hydro):
+    pass
+
+
+class BMMinerS21PlusHydro(AntminerModern, S21PlusHydro):
     pass
